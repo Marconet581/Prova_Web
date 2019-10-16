@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <img src="/imagem/Logo.png" style="height: 50px; padding-top: 10px;">
+      <img src="/imagem/Logo_ready.png" style="height: 40px; padding-left: 20px;">
+
+      <ul class="right hide-on-med-and-down">
+          <li class="tab"><a href="index.html">INICIAL</a></li>
+          <li class="tab"><a href="Servicos.html">SERVIÇOS</a></li>
+          <li class="tab"><a href="Contato.html">CONTATO</a></li>
+          <li class="tab"><a href="Galeria.html">GALERIA</a></li>
+          <li class="tab"><a href="depoimentos.html">DEPOIMENTOS</a></li>
+          <li class="tab"><a href="imc.html">IMC</a></li>
+          <li class="tab"><a href="Sobre.html">SOBRE</a></li>
+
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">MENU</a></li>
+        <li class="tab"><a href="index.html">INICIAL</a></li>
+        <li class="tab"><a href="Servicos.html">SERVIÇOS</a></li>
+        <li class="tab"><a href="Contato.html">CONTATO</a></li>
+        <li class="tab"><a href="Galeria.html">GALERIA</a></li>
+        <li class="tab"><a href="depoimentos.html">DEPOIMENTOS</a></li>
+        <li class="tab"><a href="imc.html">IMC</a></li>
+        <li class="tab"><a href="Sobre.html">SOBRE</a></li>
+      </ul>
+      
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">      
+    </div>
+    <div class="parallax"><img src="/imagem/Familia.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center cyan-text"><i class="material-icons">sentiment_very_satisfied</i></h2>
+            <h5 class="center">MISSÃO</h5>
+
+            <p class="light">Atender às necessidades e às expectativas de nossos clientes, 
+              oferecendo-lhes serviços médicos de qualidade, com amparo de tecnologia de ponta, 
+              a preços justos e competitivos, tendo como meta a satisfação e o bem-estar de toda a comunidade.
+              </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center cyan-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">CONHEÇA NOSSA EQUIPE MÉDICA</h5>
+
+            <p class="light">Clinica StarClinic.
+                São mais de 10 Médicos Especialistas divididos em várias Especialidades para cuidar da saúde da sua família. 
+                Nossa equipe possui alto grau de Qualificação e Experiência nas mais diversas áreas da medicina.
+                 Isso se traduz em mais segurança e qualidade no atendimento médico para os nossos pacientes.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center cyan-text"><i class="material-icons">Agende</i></h2>
+            <h5 class="center">Agende uma Consulta</h5>
+            <form action="#" name="agenda">
+              <input required type="text" name="nome" placeholder="nome"><br>
+              <input required type="email" name="email" placeholder="email"><br>
+              <input required type="tel" name="telefone" placeholder="telefone"><br>
+
+              
+              <a class="waves-effect waves-light btn cyan" onclick="Exibir()">ENVIAR</a>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax"><img src="/imagem/equipe_medica.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>QUEM SOMOS</h4>
+          <p class="left-align light">A Clínica StarClinic é uma empresa social na área da saúde, 
+            fundada em 2000, pelo empreendedor social, “Marcos Regis“. 
+            A clínica tem como objetivo ser uma alternativa em atendimento médico para aqueles que não tem condições
+             de ter um plano de saúde. A clínica oferece consultas médicas com qualidade de ponta, 
+             a preços acessíveis, para toda a população de Jaraguá do Sul (SC) e de seus municípios vizinhos.
+              Trata-se de um modelo alternativo em saúde, porque o paciente paga um valor acessível e justo por consultas e exames,
+              com o direito a retorno gratuito em até 30 dias.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax"><img src="/imagem/ems.png" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Endereço:</h5>
+          <p class="grey-text text-lighten-4">Rua: do Amigos do Codigo, 1000 - Centro<br><em>Jaraguá do Sul - SC</em></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="white-text" href="index.html">Inicio</a></li>
+            <li><a class="white-text" href="Servicos.html">Serviços</a></li>
+            <li><a class="white-text" href="Contato.html">Contato</a></li>
+            <li><a class="white-text" href="Galeria.html">Galeria</a></li>
+            <li><a class="white-text" href="depoimentos.html">Depoimentos</a></li>
+            <li><a class="white-text" href="imc.html">IMC</a></li>
+            <li><a class="white-text" href="Sobre.html">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Redes Sociais</h5>
+            <a href="#!" style="padding-top: 30px;"><img src="/imagem/Facebook.png"></a>
+            <a href="#!" style="padding-left: 20px; padding-top: 30px;"><img src="/imagem/Linkedin.png"></a>
+            <a href="#!" style="padding-left: 20px; padding-top: 30px;"><img src="/imagem/Twitter.png"></a>
+            <a href="#!" style="padding-left: 20px; padding-top: 30px;"><img src="/imagem/wifi.png"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Desenvolvido por <a class="brown-text text-lighten-3" href="http://materializecss.com">2M Soluções em Software @2019</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    function Exibir() {
+        var nome = document.agenda.nome.value;
+        if (nome == ""){
+          alert("Digite um Nome:")
+        }
+        else{
+          alert(nome + "\n Entraremos em Contato em Breve!")
+        }
+        
+    }
+  </script>
+
+  </body>
+</html>

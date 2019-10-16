@@ -1,0 +1,170 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.logo_gr{
+  position: absolute;
+}
+.Public{
+  background-color: #26a69a;
+  color: azure;
+  padding-bottom: 30px;
+  margin-top: 80px;
+  width: 600px;
+  height: 75px;
+  text-align: left;
+  border: 3px solid cadetblue;
+  border-radius: 10px;
+}
+.imc{
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+}
+.form-imc{
+  margin-top: 50px;
+  width: 200px;
+  margin-left: 400px;
+  text-align: left;
+
+}
+.col-100{
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.menu-principal{
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+}
+
+.table_depo{
+  margin-top: 10px;
+  border: 2px solid #26a69a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.trat{
+  font-size:x-large;
+  margin-top: 50px;
+  margin-left: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: dimgray;
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.486);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.frame_Contato{
+  width: 30%;
+  margin-top: 100px;
+  border: 3px solid cyan;
+  border-radius: 15px;
+
+}
